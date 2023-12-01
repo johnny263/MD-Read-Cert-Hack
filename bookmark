@@ -1,0 +1,1 @@
+javascript:(function()%7Bfor (var i %3D 1%3B i <%3D 30%3B i%2B%2B) %7Bvar paddedNumber %3D i.toString().padStart(2%2C '0')%3Bvar radioButtonId %3D "Q0" %2B paddedNumber %2B "_A001"%3Bvar radioButton %3D document.getElementById(radioButtonId)%3Bif (radioButton) %7BradioButton.click()%3B%7D%7D%7D)()
